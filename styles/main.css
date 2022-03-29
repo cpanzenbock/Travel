@@ -1,0 +1,51 @@
+/*Affects the whole document */
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif; /* Sets the font styles for the page. These are web safe fonts. */
+}
+
+body main {
+    margin: 5px;
+}
+
+body main p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body p {
+    margin: 15px;
+    font: Tahoma;
+}
+
+body h2 {
+    margin: 15px;
+    font: Verdana;
+}
+
+body h1 {
+    margin: 10px;
+    font: Tahoma;
+}
+
+.city-pic {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+
+/*Country personilsation*/
+#Italy h2 {
+    color: #C4151C;
+}
+
+#Brazil h2 {
+    color: #009638;
+}
+
+#Japan h2 {
+    color: #DE475F;
+}
