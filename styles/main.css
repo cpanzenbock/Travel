@@ -25,14 +25,14 @@ body p {
     font: Tahoma;
 }
 
-body h2 {
-    margin: 15px;
-    font: Verdana;
-}
-
 body h1 {
     margin: 10px;
     font: Tahoma;
+}
+
+body h2 {
+    margin: 15px;
+    font: Verdana;
 }
 
 .city-pic {
@@ -42,7 +42,7 @@ body h1 {
 }
 
 /* country personilsation */
-#Italy h2 {
+/* #Italy h2 {
     color: #C4151C;
 }
 
@@ -52,4 +52,4 @@ body h1 {
 
 #Japan h2 {
     color: #DE475F;
-}
+} */
