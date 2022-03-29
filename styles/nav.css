@@ -1,0 +1,30 @@
+/*To wrap the content of the whole page. */
+#wrapper {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* creates a navbar with a black background and no bullets */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7952B3;
+}
+
+/* floats all the elements to the left */
+nav ul li {
+    float: left;
+}
+
+	/* colors each link in the list item white and aligns */
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
