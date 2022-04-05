@@ -1,0 +1,14 @@
+GET http://example.com HTTP/1.1
+
+###
+
+GET http://httpbin.org/json
+
+###
+
+POST http://httpbin.org/post HTTP/1.1
+x-my-name: campanz
+
+{
+    "arg1":"value1"
+}
