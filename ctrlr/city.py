@@ -1,10 +1,14 @@
 class City:
 
     def __init__(self, name, description):
-        return None
+        self.name = name
+        self.description = description
+
     
     def get_city_details(self):
-        return None
+        return str(self)
 
     def __repr__(self):
-        return None
+        str = "Name: {}, Desciption: {} \n" 
+        str =str.format( self.name,self.description)
+        return str
