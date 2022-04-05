@@ -1,0 +1,34 @@
+.travelCarousel { z-index: -99; } /* keeps this behind all content */
+.travelCarousel .carousel-item {
+    position: fixed; 
+    width: 100%; height: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+.travelCarousel img {
+    object-fit: cover;
+}
+.travelCarousel .ci-one {
+    background: "../static/Canada.jpg";
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.travelCarousel .ci-two {
+    background: "../static/India.jpg";
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.travelCarousel .ci-three {
+    background: "../static/Italy.jpg";
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.travelCarousel .active.left {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
